@@ -148,7 +148,7 @@ button a:visited, button a:link{
 
 }
 
-.homePageFooter ul{
+footer ul{
     color:white;
     display: flex;
     align-items:flex-end;
@@ -162,21 +162,23 @@ footer ul li{
 
 }
 
-.homePageFooter a{
+footer a{
     color:white;
     padding: 0.625em 1.25em;
 }
 
-.banner{
-    width:100%;
-    position: relative;
-    background: url(OfflineTVImage2.jpg);
-    height: 500px;
-  }
-  .bannerTitle{
-    bottom: 0;
-    padding-left: 3em;
-  }
+.bannerGay{
+  width:100%;
+  position: relative;
+  background: url(OfflineTVImage2.jpg);
+  
+}
+.bannerTitle{
+  bottom: 0;
+  padding-left: 3em;
+}
+
+
 
 article {
     display: flex;
@@ -214,74 +216,36 @@ article {
     color: rgb(20, 20, 20);
 }
 
-.blackH1{
-    color: black;
-}
-
-.centerText{
-    padding: 0.5em 14em;
-    text-align: center;
-}
-
-.dotSize{
-    max-height: 2em;
-}
-
-table{
-    width:100%;
-    table-layout: fixed;
-    padding: 0 14em;
-    margin:auto;
-    padding-top: 3em;
-}
-
-.centerCircle{
-    width:15%;
-    text-align: center;
-    height:10em;
-}
-
-
-.seasonNumber {
-    font-style: bold;
-    font-size: 2em;
-    
-}
-
-.seasonRight {
-    text-align: right;
-}
-
-.tableText {
-    padding: 1.1em;
-    color: whitesmoke;
-    border-radius: 1em;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-footer{
-    padding: 1em 0;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: rgb(20, 20, 20);
-}
-
-footer p {
-    padding-bottom: 0.4em;
-}
-
-footer a{
-    padding: 0 1em;
-    padding-bottom: 0.5em;
-    color:rgb(255, 255, 255);
-    font-size: 1.5em;
-}
-
-footer ul{
-    display: flex;
-    align-items:center;
+/*.schoolRow{
+    padding:2.5em 0;
     justify-content: center;
+    align-items: center;
+}*/
 
+.school{
+    font-family: "Arial";
+    padding: 0 3.75em;
+}
+
+.schoolGrid{
+    display:grid;
+    grid-template-columns: 20% 20% 20%;
+}
+.schoolYear{
+    font-size: 1.4375em;
+}
+
+.schoolName{
+    font-size: 1.25em;
+    font-style:initial;
+}
+
+.schoolDescription{
+    font-size: 0.8125em;
+}
+
+.schoolLogo{
+    max-height: 9.375em;
 }
 
 @media screen and (max-width:700px){
@@ -313,7 +277,7 @@ footer ul{
         padding-right: 0.5em;
     }
 
-    .homePageFooter a{
+    footer a{
         padding-left: 0.5em;
         padding-right: 0.5em;
 
