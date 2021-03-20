@@ -23,6 +23,10 @@ html, body{
     background-repeat: no-repeat;
 }
 
+.bannerCast {
+    width:100%
+}
+
 .logo{
     height:2em;
     padding:4em;
@@ -187,7 +191,7 @@ article {
     max-height: 23em;
 }
 
-.articleTitle{
+.articleTitle, .castName{
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-style: bold;
 
@@ -202,7 +206,7 @@ article {
     line-height: 1.5em;
 }
 
-.articleText{
+.articleText, .castDescription{
     font-family: Roboto, Helvetica, Arial, sans-serif;
     padding: 0 1em;
     margin: auto;
@@ -235,6 +239,10 @@ table{
     padding-top: 3em;
 }
 
+.cast {
+table-layout: auto;
+}
+
 .centerCircle{
     width:15%;
     text-align: center;
@@ -259,11 +267,17 @@ table{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-footer{
+.genFooter{
     padding: 1em 0;
     text-align: center;
     color: rgb(255, 255, 255);
     background-color: rgb(20, 20, 20);
+}
+
+.merchFooter{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 footer p {
@@ -283,6 +297,29 @@ footer ul{
     justify-content: center;
 
 }
+
+.castImage {
+    max-width: 20em;
+    padding: 2em 0;
+}
+
+.castName{
+    font-size: 2em;
+    padding: 0 1em;
+}
+
+.castDescription {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.74);
+    padding: 0 2em;
+}
+
+.castImageRight {
+    text-align: right;
+}
+
+
+
 
 @media screen and (max-width:700px){
     nav a:not(.menu){
