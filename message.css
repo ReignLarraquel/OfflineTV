@@ -1,19 +1,44 @@
+@import url('https://fonts.googleaplis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background: rgb(15, 15, 15);
+    color: #fff;
+}
+p {
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
 .messageBox{
-    size:110px;
-    margin:0 auto;
-    background:rgb(0, 0, 0);
-    justify-content: center;
-    padding-top: 40px;
-    padding-left:50px;
-    border-radius:10%;
-    max-width: 900px;
-    height: 930px;
-    border-style:solid;
+    max-width: 300px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.205);
+    height:300px;
+    padding-top: 10px;
+    padding-left:10px;
+    border-radius:5%;
+    border: 1px solid rgb(49, 49, 49);
+    color:rgb(255, 255, 255);
+    
+}
 
+.content {
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.return {
+    position: block;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
 }

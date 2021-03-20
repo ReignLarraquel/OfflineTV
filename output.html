@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet"  type = "text/css" href="message.css">
+    <title>OfflineTVMerch#Message</title>
 </head>
 <body>
+    <p>Your message has been sent!</p>
+
     <div class = "messageBox">
-        <div id="Contacts"  class = "output-group">
-            <div>
-                <script>
-                    const list = document.getElementById('Contacts')
-                    new URLSearchParams(window.location.search).forEach((value,name) =>
-                    {
-                        list.append(`${name}: ${value}`)
-                        list.append(document.createElement('br'))
-                    }
-                    )
-                    
-                </script>
-            </div>
-    
+        <div class = "content">
+            <div id="forms"></div>
+        
+            <script>
+        const list = document.getElementById('forms')
+        new URLSearchParams(window.location.search).forEach((value,name) =>
+        {
+            
+            list.append(`${name}: ${value}`)
+            list.append(document.createElement('br'))
+            list.append(document.createElement('br'))
+        }
+        )
+            </script>
         </div>
         
-        
-
     </div>
+
+    <a href="Contacts.html" class="return">Go back to Contacts >></a>
+
 </body>
 </html>
