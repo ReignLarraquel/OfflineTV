@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.messageBox{
+    size:110px;
+    margin:0 auto;
+    background:rgb(0, 0, 0);
+    justify-content: center;
+    padding-top: 40px;
+    padding-left:50px;
+    border-radius:10%;
+    max-width: 900px;
+    height: 930px;
+    border-style:solid;
+
+}
